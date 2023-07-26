@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap&family=Kaushan+Script&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", "Kaushan Script", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.overlay {
+  overflow: hidden;
+  .qty {
+    z-index: 1 !important;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Common Css for whole App */
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+}
+
+.containerInner {
+  max-width: 1200px;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.row {
+  margin-bottom: 85px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

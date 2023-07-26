@@ -1,0 +1,56 @@
+.shimmer {
+  .img {
+    background: #d0d0d0;
+    width: 254px;
+    height: 160px;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .title,
+  .cuisines,
+  .ratings,
+  .deliveryTime,
+  .cost {
+    background: #d0d0d0;
+    width: 90%;
+    margin-top: 5px;
+    min-height: 16px;
+    position: relative;
+    border-radius: 50px;
+  }
+
+  .otherInfo {
+    justify-content: flex-start;
+  }
+
+  .ratings,
+  .deliveryTime,
+  .cost {
+    width: 20%;
+    margin: 0 10px 0 0;
+    padding: 0;
+  }
+
+  .loading-animation {
+    overflow: hidden;
+    background: #d0d0d0;
+    &::before {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      animation: loading 0.5s infinite;
+      background: linear-gradient(to right, transparent, #d9d9d9, transparent);
+    }
+  }
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.card {
+  padding: 20px 20px 57px;
+  border: 1px solid #fff;
+  contain: content;
+  width: 254px;
+  &:hover {
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgba(218, 220, 230, 0.6);
+    cursor: pointer;
+  }
+  img {
+    background: #eef0f5;
+    width: 254px;
+    height: 160px;
+    position: relative;
+  }
+  .title {
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+    margin-top: 5px;
+  }
+  .cuisines {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-top: 10px;
+  }
+  .otherInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 5px;
+    .ratings {
+      background-color: #48c479;
+      color: #fff;
+      padding: 2px 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+    }
+    .star {
+      font-size: 9px;
+      margin-right: 5px;
+    }
+
+    .deliveryTime,
+    .cost {
+      font-size: 12px;
+      color: #535665;
+    }
+  }
+}

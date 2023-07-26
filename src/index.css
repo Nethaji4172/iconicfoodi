@@ -1,13 +1,326 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap&family=Kaushan+Script&family=Roboto&display=swap');
+
+* {
+  margin : 0;
+  padding: 0;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Kaushan Script',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* 
+.container {
+  width    : 1300px;
+  margin   : 0 auto;
+  max-width: 100%;
+  position : relative;
 }
+
+.containerInner {
+  max-width : 1200px;
+  min-width : 1200px;
+  position  : relative;
+  margin    : 0 auto;
+  padding   : 20px 0;
+  background: #fff;
+}
+
+.row {
+  margin-bottom  : 85px;
+  display        : flex;
+  justify-content: flex-start;
+  flex-wrap      : wrap;
+} */
+/* 
+.card {
+  padding: 20px 20px 57px;
+  border : 1px solid #fff;
+  contain: content;
+  width  : 254px;
+}
+
+.card:hover {
+  border-color: #d3d5df;
+  box-shadow  : 0 4px 7px 0 rgba(218, 220, 230, .6);
+  cursor      : pointer;
+}
+
+.card img {
+  background: #eef0f5;
+  width     : 254px;
+  height    : 160px;
+  position  : relative;
+}
+
+.card .title {
+  font-size  : 17px;
+  font-weight: 500;
+  word-break : break-word;
+  margin-top : 5px;
+}
+
+.card .cuisines {
+  color     : #686b78;
+  font-size : 13px;
+  margin-top: 4px;
+  margin-top: 10px;
+}
+
+.otherInfo {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  padding        : 20px 0;
+  margin-top     : 5px;
+}
+
+.ratings {
+  background-color: #48c479;
+  color           : #fff;
+  padding         : 2px 6px;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  font-size       : 12px;
+}
+
+.star {
+  font-size   : 9px;
+  margin-right: 5px;
+}
+
+.deliveryTime,
+.cost {
+  font-size: 12px;
+  color    : #535665;
+} */
+
+
+
+/* 
+.shimmer .img {
+  background   : #D0D0D0;
+  width        : 254px;
+  height       : 160px;
+  position     : relative;
+  border-radius: 10px;
+}
+
+.shimmer .title,
+.shimmer .cuisines,
+.shimmer .ratings,
+.shimmer .deliveryTime,
+.shimmer .cost {
+  background   : #D0D0D0;
+  width        : 90%;
+  margin-top   : 5px;
+  min-height   : 16px;
+  position     : relative;
+  border-radius: 50px;
+}
+
+.shimmer .otherInfo {
+  justify-content: flex-start;
+}
+
+.shimmer .ratings,
+.shimmer .deliveryTime,
+.shimmer .cost {
+  width  : 20%;
+  margin : 0 10px 0 0;
+  padding: 0;
+}
+
+
+.loading-animation {
+  overflow  : hidden;
+  background: #D0D0D0;
+}
+
+.loading-animation::before {
+  content   : "";
+  display   : block;
+  height    : 100%;
+  width     : 100%;
+  animation : loading .5s infinite;
+  background: linear-gradient(to right, transparent, #D9D9D9, transparent);
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+} */
+
+/* 
+header {
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+  height    : 80px;
+  background: #fff;
+  width     : 100%;
+  display   : block;
+  z-index   : 99;
+  position  : relative;
+}
+
+header .containerInner {
+  padding: 0;
+}
+
+nav {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  width          : 100%;
+  height         : 80px;
+}
+
+nav .logo {
+  font-size     : 24px;
+  font-weight   : 700;
+  text-transform: capitalize;
+  font-family   : 'Kaushan Script', cursive;
+}
+
+nav ul {
+  list-style: none;
+  display   : flex;
+  margin    : 0;
+  padding   : 0;
+}
+
+nav ul li {}
+
+nav ul li a {
+  text-decoration: none;
+  height         : 80px;
+  width          : auto;
+  display        : flex;
+  align-items    : center;
+  padding        : 0 25px;
+  color          : #3d4152;
+  background     : #fff;
+  font-size      : 16px;
+  font-weight    : 500;
+  transition     : all 0.5s;
+}
+
+nav ul li a:hover {
+  color : #0aa404;
+  cursor: pointer;
+
+} */
+/* 
+footer {
+  background: #000;
+  padding   : 20px 0;
+}
+
+footer .containerInner {
+  background     : #000;
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+
+}
+
+footer .logo {
+
+  font-size     : 24px;
+  font-weight   : 700;
+  text-transform: capitalize;
+  font-family   : 'Kaushan Script', cursive;
+  color         : #fff;
+}
+
+footer .year {
+  font-size     : 14px;
+  font-weight   : 400;
+  text-transform: capitalize;
+  color         : #fff;
+} */
+
+/* a {
+  text-decoration: none;
+  color          : #000;
+} */
+/* 
+.category {
+  font-size  : 20px;
+  font-weight: 700;
+}
+
+.menulist,
+.product-card {
+  width : 800px;
+  margin: 0 auto;
+}
+
+
+.product-card {
+  display        : flex;
+  justify-content: flex-start;
+  align-items    : center;
+  margin         : 30px auto;
+}
+
+.product-img {
+  width       : 250px;
+  margin-right: 20px;
+}
+
+.product-img img {
+  max-width: 100%;
+}
+
+.menuListItem .category {
+  cursor         : pointer;
+  margin         : 0 0 15px 0;
+  color          : #3e4152;
+  font-weight    : 800;
+  font-size      : 1.3rem;
+  display        : flex;
+  justify-content: space-between;
+}
+
+.menuListItem .categoryItem {
+  opacity   : 0;
+  visibility: hidden;
+  width     : 100%;
+  height    : 0;
+  display   : flex;
+  flex-wrap : wrap;
+}
+
+.menuListItem.active .categoryItem {
+  height    : auto;
+  opacity   : 1;
+  visibility: visible;
+  padding   : 5px 0 5px;
+}
+
+.menuListItem .category svg {}
+
+.menuListItem.active .category svg {
+  transform: rotate(180deg);
+}
+
+.menuItem {
+  padding: 0 10px 10px 0;
+} */
